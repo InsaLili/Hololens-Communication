@@ -12,7 +12,7 @@ This file is included in both two folders which is the essence of the communicat
 ```
 BTController.cs 
 ```
-I have also included a BlueTooth controller in case a high data transmission speed is required. However Hololens turns out not very friendly for using Bluetooth transmission. Each time when rebuilt the solution, I need to modify settings in Hololens otherwise the transmission would be blocked. 
+I have also included a BlueTooth controller in case a high data transmission speed is required. However Hololens turns out not very friendly for using Bluetooth transmission. Each time when rebuild the solution, I need to modify settings in Hololens otherwise the transmission would be blocked. 
 
 In case someone who wants to use Bluetooth, here is how to modify setting in Hololens:
 
