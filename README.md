@@ -1,8 +1,21 @@
 # Hololens-Communication
 
-Sender is running on PC, Reciver is Hololens.
+## Sender is running on PC, Reciver is running on Hololens.
 
-UDP Controller is the essence of the communication part.
+You can find 
+```
+UDPController.cs 
+```
+in both two folders which is the essence of the communication part.
 
-I have also included a BlueTooth controller when concerning the data transmission speed is required.
-But
+I have also included a BlueTooth controller 
+```
+BTController.cs 
+```
+concerning if a high data transmission speed is required. However Hololens turns out not very friendly for using Bluetooth transmission. Each time when I rebuilt the solution, I need to modify settings in Hololens otherwise the transmission would be blocked. 
+
+In case someone who wants to use Bluetooth, here is how to modify setting in Hololens:
+
+```
+Settings -> Privacy -> Other devices -> Let these apps use my #Device-Name# (turn on your apps)
+```
