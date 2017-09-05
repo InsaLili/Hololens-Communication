@@ -7,7 +7,7 @@ This project was to achieve the communication between a Hololens and a PC runnin
 ```
 UDPController.cs 
 ```
-This file is included in both two folders which is the essence of the communication part.
+This file is included in both two folders which is the essence of the communication part. When using it, we need to change the IP address to the current one.
 
 ```
 BTController.cs 
